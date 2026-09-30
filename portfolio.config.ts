@@ -253,7 +253,6 @@ export const portfolioData: PortfolioData = {
       achievements: [
         //"Research on distributed deep learning published in NeurIPS 2015",
         //"Teaching Assistant for CS229 (Machine Learning)",
-        "Participant of Nasa Space App Challenge Hackathon 2026"
       ]
     }
   ],
@@ -338,22 +337,30 @@ export const portfolioData: PortfolioData = {
       ],
       category: "Desktop",
     },
-    /*{
-      id: 5,
-      title: "Kubernetes Auto-Scaler",
-      description: "Intelligent pod autoscaler using predictive ML models. Reduces cloud costs by 45% while maintaining performance SLAs.",
-      image: "/projects/k8s.jpg",
-      liveUrl: "https://demo-k8s.example.com",
-      githubUrl: "https://github.com/yourusername/k8s-autoscaler",
-      technologies: ["Python", "Kubernetes", "Prometheus", "LSTM"],
-      highlights: [
-        "45% cost reduction",
-        "Predictive scaling",
-        "Custom CRD"
-      ],
-      category: "DevOps"
-    },
     {
+      id: 5,
+      title: "Bug Reporting & Classification Tool",
+      description:
+        "ML-powered bug triage assistant. Describe a bug in plain English and a TF-IDF and Logistic Regression model classifies it as UI, Backend, Database, Performance, or Security with a confidence score. Paired with a secure FastAPI bug-tracking backend.",
+      image: "/projects/bug-classifier.jpeg",
+      liveUrl: "",
+      githubUrl: "https://github.com/puspitapuja19/Bug-Reporting-Classification-Tool",
+      technologies: [
+        "Python",
+        "Flask",
+        "FastAPI",
+        "scikit-learn",
+        "MySQL",
+        "Tailwind CSS",
+      ],
+      highlights: [
+        "TF-IDF + Logistic Regression bug classifier",
+        "JWT auth, rate limiting, and per-user data isolation",
+        "Dark/light mode UI with prediction history",
+      ],
+      category: "AI/ML",
+    },
+    /*{
       id: 6,
       title: "Real-Time Analytics Platform",
       description: "Stream processing platform for real-time analytics. Processes 1TB/hour with complex event processing and time-series analysis.",
